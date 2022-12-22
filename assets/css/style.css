@@ -82,13 +82,13 @@
     flex-wrap: wrap;
     column-gap: 1vw;
     row-gap: 1vh;
-    width: 90vw;
-    padding-left:15vw;
+    width: 80vw;
+    padding-left:20vw;
     margin-bottom: 8vw;
 }
 
 .mainImages img{
-    width: 300px;
+    width: 350px;
 }
 
 .tourDates{
