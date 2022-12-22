@@ -32,7 +32,7 @@
 
 
 .logo{
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     padding: 1% 1%;
     color: #999;
 }
@@ -40,15 +40,15 @@
 .backgroundImg{
     background: url(https://images.unsplash.com/photo-1486312699619-be057cfc0342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80);
     background-size: contain;
-    width: 100vw;
+    width: 100%;
     height: 50vw;
     background-repeat:no-repeat;
 }
 
 .backgroundImgText{
     padding-top: 18%;
-    font-size: 3vw;
-    width: 19vw;
+    font-size: 2vw;
+    width: 15vw;
     margin-left: auto;
     margin-right: auto;
     color:#fff;
@@ -59,6 +59,7 @@
 /* ==========main========== */
 
 .mainTextArticle{
+    min-width: 40vw;
     width: 70vw;
     margin-left: auto;
     margin-right: auto;
@@ -67,5 +68,67 @@
 
 .mainTextArticle h3{
     font-size: 2vw;
+    margin-bottom: 4vw;
 }
 
+.mainTextArticle p{
+    font-size: 1.5vw;
+    margin-bottom: 5vw;
+}
+
+.mainImages{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 1vw;
+    row-gap: 1vh;
+    width: 90vw;
+    padding-left:12vw;
+    margin-bottom: 8vw;
+}
+
+.mainImages img{
+    width: 22vw;
+}
+
+.tourDates{
+    margin-left: 17vw;
+    margin-bottom: 10vw;
+}
+
+.tourDates li{
+    list-style: none;
+    font-size: 1vw;
+    line-height: 2.5vw;
+}
+
+.tourDates p{
+    text-align: center;
+    padding-right: 10vw;
+    margin-bottom: 4vw;
+    font-size: 1.3vw;
+}
+
+.spanRed{
+    color: red;
+}
+
+.spanGreen{
+    color:green;
+}
+
+/* ==========footer========== */
+
+
+footer{
+    margin-top: 5vw;
+    padding: 5vw;
+    text-align: center;
+    border-top: 1px solid #999;
+}
+
+footer a{
+    font-size: 1.5vw;
+    color:black;
+    text-decoration: none;
+}
