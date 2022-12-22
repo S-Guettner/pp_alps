@@ -83,12 +83,12 @@
     column-gap: 1vw;
     row-gap: 1vh;
     width: 90vw;
-    padding-left:12vw;
+    padding-left:15vw;
     margin-bottom: 8vw;
 }
 
 .mainImages img{
-    width: 22vw;
+    width: 300px;
 }
 
 .tourDates{
